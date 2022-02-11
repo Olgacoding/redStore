@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Redstore</title>
+    <script src="https://kit.fontawesome.com/9d7099a829.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img class="logo-image" src="images/logo.png" alt="logo" width="125">
+                    </a>
+                </div>
+                <div class="toggle-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="index.html">Home</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="products.html">Products</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#">About</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#">Contact</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="account.html">Account</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="cart.html">
+                    <img class="header__cart" src="images/cart.png" alt="cart">
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="small__container">
+            <div class="all__products-items">
+                <h2 class="products__title title all__products-title">
+                    All Products
+                </h2>
+                <select class="select">
+                    <option class="option">Default Shorting</option>
+                    <option class="option">Short by price</option>
+                    <option class="option">Short by popularity</option>
+                    <option class="option">Short by rating</option>
+                    <option class="option">Short by sale</option>
+                </select>
+            </div>
+
+            <div class="products__items">
+
+                <div class="products__item">
+                    <a href="#">
+                        <img class="products__item-image" src="images/product-1.jpg" alt="fitness-legging">
+                        <h4 class="products__item-title">
+                            Slim Fit Fitness Legging
+                        </h4>
+
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <span class="products__item-price">$25.00</span>
+                    </a>
+                </div>
+
+                <div class="products__item">
+                    <a href="#">
+                        <img class="products__item-image" src="images/product-2.jpg" alt="smart-watch">
+                        <h4 class="products__item-title">
+                            Digital Smart Sports Watch
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="products__item-price">$30.00</span>
+                    </a>
+                </div>
+
+                <div class="products__item">
+                    <a href="#">
+                        <img class="products__item-image" src="images/product-3.jpg" alt="yoga-suit">
+                        <h4 class="products__item-title">
+                            Short Yoga Set - Beige Suit
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <span class="products__item-price">$14.47</span>
+                    </a>
+                </div>
+
+                <div class="products__item">
+                    <a href="#">
+                        <img class="products__item-image" src="images/product-4.jpg" alt="racerback-tank">
+                        <h4 class="products__item-title">
+                            Gray Racerback Tank
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <span class="products__item-price">$27.95</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="latest__items">
+
+                <div class="latest__item">
+                    <a href="#">
+                        <img class="latest__item-image" src="images/product-5.jpg" alt="shoes">
+                        <h4 class="latest__item-title">
+                            Women Running Shoes
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="latest__item-price">$59.36</span>
+                    </a>
+                </div>
+
+                <div class="latest__item">
+                    <a href="#">
+                        <img class="latest__item-image" src="images/product-6.jpg" alt="parallettes">
+                        <h4 class="latest__item-title">
+                            Parallettes - Push-up Rack
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <span class="latest__item-price">$79.95</span>
+                    </a>
+                </div>
+
+                <div class="latest__item">
+                    <a href="#">
+                        <img class="latest__item-image" src="images/product-7.jpg" alt="gym-tracksuit">
+                        <h4 class="latest__item-title">
+                            Gym Tracksuit Wear - Black
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="latest__item-price">$55.00</span>
+                    </a>
+                </div>
+
+                <div class="latest__item">
+                    <a href="#">
+                        <img class="latest__item-image" src="images/product-8.jpg" alt="crop-top">
+                        <h4 class="latest__item-title">
+                            Women Crop Top
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <span class="latest__item-price">$49.00</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="more__items">
+
+                <div class="more__item">
+                    <a href="#">
+                        <img class="more__item-image" src="images/product-9.jpg" alt="nike-shoes">
+                        <h4 class="more__item-title">
+                            Black & White Nike Shoes
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <span class="more__item-price">$49.99</span>
+                    </a>
+                </div>
+
+                <div class="more__item">
+                    <a href="#">
+                        <img class="more__item-image" src="images/product-10.jpg" alt="AB-wheel">
+                        <h4 class="more__item-title">
+                            AB Wheel Roller Kit
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="more__item-price">$28.40</span>
+                    </a>
+                </div>
+
+                <div class="more__item">
+                    <a href="#">
+                        <img class="more__item-image" src="images/product-11.jpg" alt="yoga-pants">
+                        <h4 class="more__item-title">
+                            Gold Print Yoga Pants - Gray
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <span class="more__item-price">$39.95</span>
+                    </a>
+                </div>
+
+                <div class="more__item active">
+                    <a href="product-details.html">
+                        <img class="more__item-image" src="images/product-12.jpg" alt="black-shorts">
+                        <h4 class="more__item-title">
+                            Nike Women's Running Shorts
+                        </h4>
+                        <div class="products__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="more__item-price">$40.00</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="products__page-btn">
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>&#8594;</span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__item footer__item-1">
+                    <h3 class="footer__item-title">
+                        Download Our App
+                    </h3>
+                    <p class="footer__item-text">
+                        Download App for Android and IOS mobile phone
+                    </p>
+                    <div class="footer__item-app">
+                        <img class="app__logo-img" src="images/play-store.png" alt="app">
+                        <img class="app__logo-img" src="images/app-store.png" alt="app">
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <img class="footer__item-image" src="images/logo-white.png" alt="logo">
+                    <p class="footer__item-text">
+                        Our goal is to make the pleasure and benefits of sports accessible to as many people as possible
+                        over the long term.
+                    </p>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__item-title">
+                        Useful Links
+                    </h3>
+                    <ul class="footer__item-list">
+                        <li class="footer__item-li">
+                            <a class="footer__item-other" href="#">Coupons</a>
+                        </li>
+                        <li class="footer__item-li">
+                            <a class="footer__item-other" href="#">Blog Post</a>
+                        </li>
+                        <li class="footer__item-li">
+                            <a class="footer__item-other" href="#">Return Policy</a>
+                        </li>
+                        <li class="footer__item-li">
+                            <a class="footer__item-other" href="#">Join Affiliate</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__item">
+                    <h3 class="footer__item-title">
+                        Follow us
+                    </h3>
+                    <ul class="footer__item-list">
+                        <li class="footer__item-li">
+                            <a class="footer__item-sn" href="https://www.facebook.com">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer__item-li">
+                            <a class="footer__item-sn" href="https://twitter.com">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="footer__item-li">
+                            <a class="footer__item-sn" href="https://www.instagram.com">
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer__item-li">
+                            <a class="footer__item-sn" href="https://www.youtube.com">
+                                YouTube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer__hr">
+            <p class="footer__copyright">Copyright 2020 - Red Store</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0];
+        const headerMenu = document.getElementsByClassName('header__menu')[0];
+
+        toggleButton.addEventListener('click', () => {
+            headerMenu.classList.toggle('active')
+        })
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
